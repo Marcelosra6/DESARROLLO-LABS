@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producto</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img/producto1.jpg" class="img-fluid" alt="Producto">
+      </div>
+      <div class="col-md-6">
+        <h2>Nombre del producto</h2>
+        <p class="text-muted">$99.99</p>
+        <p>Descripción detallada del producto.</p>
+        <label for="talla">Talla:</label>
+        <select id="talla" class="form-select mb-2">
+          <option>S</option><option>M</option><option>L</option>
+        </select>
+        <label for="color">Color:</label>
+        <select id="color" class="form-select mb-2">
+          <option>Rojo</option><option>Azul</option><option>Negro</option>
+        </select>
+        <button class="btn btn-primary" onclick="agregarAlCarrito('Producto 1', 99.99)">Agregar al carrito</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.navbar {
+  background-color: $color-principal !important;
+  .nav-link {
+    color: white !important;
+    &:hover { color: $color-secundario !important; }
+  }
+}
