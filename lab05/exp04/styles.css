@@ -1,0 +1,42 @@
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, rgba(108, 92, 231, 0.06), #f7f7fb);
+  color: #2d3436;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.inicio {
+  padding: 4.5rem 0;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  padding: 1.25rem;
+}
+
+.testimonial {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+.btn-primary {
+  background: #0066ff;
+  border: 0;
+}
+
+.accent {
+  color: #00b894;
+}
+
+footer {
+  background: #0f1724;
+  color: #cbd5e1;
+  padding: 2rem 0;
+}
