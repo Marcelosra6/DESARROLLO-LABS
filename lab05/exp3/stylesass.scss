@@ -1,0 +1,74 @@
+$fuente: Helvetica, Arial, sans-serif;
+$color-fuente: #fff;
+$color-header: #800020;
+$color-nav: #600303;
+$color-hover: #4b0101;
+
+body {
+  font-family: $fuente;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+#header {
+  background-color: $color-header;
+  color: $color-fuente;
+  text-align: center;
+  padding: 2rem;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+    opacity: .9;
+  }
+}
+
+nav.navbar {
+  background-color: $color-nav;
+
+  .nav-link {
+    color: $color-fuente;
+
+    &:hover {
+      background-color: $color-hover;
+      border-radius: 4px;
+    }
+  }
+}
+#letra {
+  background: #eee;
+  padding: 1rem;
+  border-radius: 6px;
+
+  h1 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid $color-nav;
+    margin-bottom: 1rem;
+  }
+
+  .lyrics {
+    max-height: 600px;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $color-nav;
+
+      &:hover {
+        background: $color-hover;
+      }
+    }
+  }
+}
+footer {
+  background: #222;
+  color: $color-fuente;
+  text-align: center;
+  padding: 1rem;
+}

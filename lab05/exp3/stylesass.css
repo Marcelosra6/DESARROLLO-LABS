@@ -1,0 +1,62 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+#header {
+  background-color: #800020;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+#header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+#header h2 {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+nav.navbar {
+  background-color: #600303;
+}
+nav.navbar .nav-link {
+  color: #fff;
+}
+nav.navbar .nav-link:hover {
+  background-color: #4b0101;
+  border-radius: 4px;
+}
+
+#letra {
+  background: #eee;
+  padding: 1rem;
+  border-radius: 6px;
+}
+#letra h1 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid #600303;
+  margin-bottom: 1rem;
+}
+#letra .lyrics {
+  max-height: 600px;
+  overflow-y: auto;
+}
+#letra .lyrics::-webkit-scrollbar {
+  width: 6px;
+}
+#letra .lyrics::-webkit-scrollbar-thumb {
+  background: #600303;
+}
+#letra .lyrics::-webkit-scrollbar-thumb:hover {
+  background: #4b0101;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}/*# sourceMappingURL=stylesass.css.map */

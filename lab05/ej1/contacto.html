@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styleContacto.css">
+</head>
+<body>
+    <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">ELMCHI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="principal.html">Acerca de mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portafolio.html">Portafolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-5 mb-4">
+                <div class="contact-info">
+                    <h1 class="section-title">Contáctame</h1>
+                    
+                    <div class="d-flex align-items-start mb-4">
+                        <div class="contact-icon">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5>Correo Electrónico</h5>
+                            <p class="mb-1">Personal: marcelosra6@gmail.com</p>
+                            <p class="mb-0">Institucional: marcelo.ramos@estudiante.ucsm.edu.pe</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-start mb-4">
+                        <div class="contact-icon">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5>Teléfono</h5>
+                            <p class="mb-0">+51 976246465</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-start mb-4">
+                        <div class="contact-icon">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5>Dirección</h5>
+                            <p class="mb-0">P.J. Victor Andrés Belaunde Mz. A. Lt. 26B.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h5>Horario de contacto</h5>
+                        <p class="mb-0">Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                        <p class="mb-0">Sábados: 10:00 AM - 2:00 PM</p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-md-7">
+                <div class="contact-form">
+                    <h2 class="section-title">Envía un mensaje</h2>
+                    <form id="contactForm">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="nombre" class="form-label">Nombre:</label>
+                                <input type="text" class="form-control" id="nombre" required placeholder="Ingrese su nombre">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="apellido" class="form-label">Apellido:</label>
+                                <input type="text" class="form-control" id="apellido" required placeholder="Ingrese su apellido">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo:</label>
+                            <input type="email" class="form-control" id="correo" required placeholder="Ingrese su correo electrónico">
+                        </div>
+                        <div class="mb-3">
+                            <label for="asunto" class="form-label">Asunto:</label>
+                            <input type="text" class="form-control" id="asunto" required placeholder="Ingrese el asunto de su mensaje">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje:</label>
+                            <textarea class="form-control" id="mensaje" rows="5" required placeholder="Ingrese su mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="boton">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="text-center">
+                © 2023 @Mchis's New Plan - ballenitas CORP - todos los derechos reservados
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
