@@ -1,0 +1,25 @@
+.header {
+  background: $primary;
+  color: white;
+  padding: $spacing-md;
+  @include shadow(2);
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: $spacing-md;
+
+      li {
+        a {
+          color: white;
+          text-decoration: none;
+          @include transition(color);
+          &:hover {
+            color: lighten-color($secondary, 15%);
+          }
+        }
+      }
+    }
+  }
+}

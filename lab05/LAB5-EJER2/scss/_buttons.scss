@@ -1,0 +1,24 @@
+.btn {
+  padding: $spacing-sm $spacing-md;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  @include rounded();
+  @include transition(all);
+
+  &--primary {
+    background: $primary;
+    color: white;
+    &:hover {
+      background: darken-color($primary, 10%);
+    }
+  }
+
+  &--secondary {
+    background: $secondary;
+    color: white;
+    &:hover {
+      background: darken-color($secondary, 10%);
+    }
+  }
+}

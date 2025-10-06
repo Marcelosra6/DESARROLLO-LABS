@@ -1,0 +1,20 @@
+// Sombra reutilizable
+@mixin shadow($level: 1) {
+  @if $level == 1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  } @else if $level == 2 {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  } @else {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+  }
+}
+
+// Bordes redondeados
+@mixin rounded($radius: $radius-sm) {
+  border-radius: $radius;
+}
+
+// Transiciones
+@mixin transition($props...) {
+  transition: $props 0.3s ease;
+}

@@ -1,0 +1,9 @@
+// Función para oscurecer color base
+@function darken-color($color, $amount: 10%) {
+  @return darken($color, $amount);
+}
+
+// Función para aclarar
+@function lighten-color($color, $amount: 10%) {
+  @return lighten($color, $amount);
+}
