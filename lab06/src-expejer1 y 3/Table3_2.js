@@ -2,18 +2,18 @@ import React, { Component } from 'react';
 import './Table.css'; 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
  
-function Table({ mascotaData }) {
+function Table32({ mascotaData }) {
   return (
-    <div className="table-responsive">
-      <table className="table table-hover">
-        <TableHeader />
-        <TableBody mascotaData={mascotaData} />
+    <div class="table-responsive">
+      <table class="table table-hover">
+        <TableHeader32 />
+        <TableBody32 mascotaData={mascotaData} />
       </table>
     </div>
   );
 }
 
-const TableHeader = () => { 
+const TableHeader32 = () => { 
     return ( 
         <thead class="bg-warning"> 
             <tr> 
@@ -28,7 +28,7 @@ const TableHeader = () => {
         </thead> 
     ); 
 }; 
-const TableBody = (props) => { 
+const TableBody32 = (props) => { 
     return ( 
         <tbody>
             {props.mascotaData.map((mascota, index) => ( 
@@ -45,4 +45,4 @@ const TableBody = (props) => {
         </tbody> 
     ); 
 }; 
-export default Table; 
+export default Table32; 
