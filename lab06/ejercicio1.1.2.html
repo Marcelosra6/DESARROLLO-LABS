@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>React CDN Function Component</title>
+
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+  </head>
+  <body style="margin: 0; padding: 0; background:#183806e3; 
+    height: 100vh; display: flex; justify-content: center; align-items: center; font-family: 'Segoe UI', sans-serif;">
+    <div id="root"></div>
+    <script type="text/babel">
+      function App() {
+        return (
+            <h1
+              style={{
+                backgroundColor: "#006d3ce0",
+                padding: "20px 40px",
+                borderRadius: "15px",
+                color: "#ffffff",
+                textAlign: "center",
+                boxShadow: "0 4px 15px rgba(0,0,0,0.3)",
+              }}>
+              Registro de Mascotas
+            </h1>
+        );
+      }
+
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<App />);
+    </script>
+  </body>
+</html>

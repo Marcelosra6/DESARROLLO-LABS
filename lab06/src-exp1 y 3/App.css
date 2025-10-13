@@ -1,0 +1,42 @@
+.App { 
+
+  background-color: #282c34; 
+  min-height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  font-size: calc(10px + 2vmin); 
+   min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes App-logo-spin { 
+  from { 
+    transform: rotate(0deg); 
+  } 
+  to { 
+    transform: rotate(360deg); 
+  } 
+}
+
+ @keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    padding: 1.5rem !important;
+  }
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  p {
+    font-size: 1rem !important;
+  }
+}
